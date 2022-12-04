@@ -20,8 +20,6 @@ void main() {
   setUp(() {
     fileSystem = MemoryFileSystem.test();
     processManager = FakeProcessManager.empty();
-    config = Config.test();
-  });
 
   group('AndroidSdk', () {
     Directory? sdkDir;
